@@ -1,9 +1,14 @@
 {
     "manifest_version": 2,
-    "name":"Hello",
-    "version":"1.0",
-    "browser_action":{
-    "default_popup": "popup.html"
-}
-     
-}
+    "name": "Chrome Extension",
+    "version": "0.1",
+    "browser_action": {
+        
+        "default_popup": "index.html"
+    },
+
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+           }
+
+}  
